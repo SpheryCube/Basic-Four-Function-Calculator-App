@@ -5,7 +5,7 @@ public class Calculator {   //This is our singleton class
 
     public static Calculator getInstance()
     {
-        private static Calculator mInstance = null;
+        Calculator mInstance = null;
 
         if (mInstance == null)
         {
