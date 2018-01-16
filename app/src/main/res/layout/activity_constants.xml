@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="org.mssm.httpwww.calculator_2.Constants">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="e"
+        android:id="@+id/eulersconstant_btn"
+        android:layout_row="0"
+        android:layout_column="0"
+        android:allowUndo="false"
+        android:focusableInTouchMode="false"
+        android:onClick="on_e_btn_click"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="π"
+        android:id="@+id/pie_btn"
+        android:layout_row="0"
+        android:layout_column="1"
+        android:onClick="on_pi_btn_click"
+        />
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Permeabilityvacuum_cnst"
+        android:layout_row="0"
+        android:layout_column="2"
+        android:text="μ0"
+        android:onClick="on_permeability_of_vacuum_click"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ε0"
+        android:id="@+id/Permittivityvacumm_btn"
+        android:layout_row="1"
+        android:layout_column="0"
+        android:onClick="on_permittivity_of_vacuum_btn_click"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="G"
+        android:id="@+id/univerisalgravitationalconstant_btn"
+        android:layout_row="1"
+        android:layout_column="1"
+        android:onClick="on_universal_gravitational_constant_click"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="R"
+        android:id="@+id/molargasconstant_btn"
+        android:layout_row="1"
+        android:layout_column="2"
+        android:onClick="on_molar_gas_constant_click"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Button"
+        android:id="@+id/button7"
+        android:layout_row="2"
+        android:layout_column="0" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Button"
+        android:id="@+id/button8"
+        android:layout_row="2"
+        android:layout_column="1" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Button"
+        android:id="@+id/button9"
+        android:layout_row="2"
+        android:layout_column="2" />
+</GridLayout>

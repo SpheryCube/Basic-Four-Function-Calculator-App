@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Calculator_2</string>
+    <string name="clear_history">Clear History</string>
+</resources>
